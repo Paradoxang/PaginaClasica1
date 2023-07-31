@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+@font-face {
+    font-family: "AloeVeraFont";
+    src: url("../") format("ttf"),
+}
+header{
+    height: 100px;
+    display: flex; 
+    justify-content: space-around;
+    
+}
+header h1{
+    color: yellow;
+}
+nav {
+    margin: 0 auto;
+    background-color:yellow
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+    font-family:"AloeVeraFont"
+}
